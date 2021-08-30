@@ -1,0 +1,174 @@
+﻿*{
+    font-family:sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color:lightgrey;
+}
+
+.top_menubar {
+    position:fixed;
+    left:60px;
+    float:left;
+    height: 53px;
+    width: calc(100% - 60px);
+    background-color: white;
+}
+
+.profile{
+    width:200px;
+    height:100%;
+    position:relative;
+    float:right;
+    right:20px;
+    display:inline;
+}
+
+.profile-details{
+   font-size:smaller;
+   margin-top:10px;
+  margin-left:10px;
+   float:left;
+}
+
+
+.picture{
+    float:right;
+    border-radius:50%;
+}
+
+
+.side_menubar {
+    height:calc(100vh - 30px);
+    width: 60px;
+    background-color: #f1f1f1;
+    position:fixed;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+    li a:hover {
+        background-color: #555;
+        color: white;
+    }
+    .active{
+        background-color: #555;
+        color:white;
+        cursor:auto;
+    }
+
+.footer {
+    position:absolute;
+    height: 30px;
+    width:100%;
+    background-color: white;
+    bottom:0;
+}
+
+.foot-text{
+    line-height:0;
+    text-align:center;
+    font-size:small;
+}
+
+.login {
+    border-radius:5%;
+    border: 2px solid gray;
+    background-color:white;
+    width:300px;
+    height:400px;
+    color:black;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    position:absolute;
+    box-sizing:border-box;
+    padding:20px;
+}
+
+.logo{
+    position:absolute;
+    left:calc(50% - 50px);
+}
+
+
+.form-controls{
+    position:absolute;
+    width:80%;
+}
+.controls{
+    position:relative;
+    top:130px;
+    width:100%;
+    height:30px;
+    padding-left:10px;
+    outline:none;
+}
+
+.lbl{
+    font-size:medium;
+    line-height:50px;
+}
+
+.btn{
+    height:35px;
+    padding-left:0;
+    width:105% !important;
+}
+
+.Content{
+    left: 60px;
+    width: calc(100% - 60px);
+    bottom:30px;
+    top: 60px;
+    height:calc(100vh - 53px);
+    position: fixed;
+    padding:20px;
+}
+
+.add-employee{
+    border:2px thin black;
+    background-color:white;
+    width:80%;
+    padding:30px;
+    overflow:auto;
+}
+
+table{
+}
+
+table td{
+    width:35%;
+    
+}
+
+.textbox{
+    width:90%;
+    height:25px;
+}
+
+.drpdwn{
+    height:30px;
+    width:92%;
+}
+
+.frm-btn{
+    height:30px;
+    width:40%;
+    margin-right:5px;
+    margin-top:10px;
+    font-size:large;
+    cursor:pointer;
+}
